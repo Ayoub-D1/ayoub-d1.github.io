@@ -1,38 +1,49 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #6741d9 0%, #9775fa 100%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  max-width: 1400px;
+  margin: 32px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-title {
+  margin: 48px 0;
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.651);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropdown {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  appearance: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* Hide Arrow icon in IE browsers */
+.dropdown::-ms-expand {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.dropdown:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 560px) {
+  .dropdown {
+    top: 16px;
+    right: 16px;
   }
 }

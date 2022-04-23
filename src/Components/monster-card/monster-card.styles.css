@@ -1,0 +1,49 @@
+figure {
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #9775fa;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+figure:hover {
+  transform: scale(1.05);
+}
+
+figure img {
+  width: 190px;
+}
+
+figcaption {
+  width: 100%;
+  height: 108px;
+  text-align: center;
+  padding: 8px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+figcaption h2 {
+  margin-top: 4px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 1;
+  color: #e6fcf5;
+  color: #f3f0ff;
+}
+
+figcaption p {
+  font-size: 21px;
+  color: #e5dbff;
+  cursor: no-drop;
+}
