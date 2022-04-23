@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/friendly-monsters/static/css/main.56338205.css",
+    "main.js": "/friendly-monsters/static/js/main.c0cd0d6c.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/friendly-monsters/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/friendly-monsters/index.html",
+    "main.56338205.css.map": "/friendly-monsters/static/css/main.56338205.css.map",
+    "main.c0cd0d6c.js.map": "/friendly-monsters/static/js/main.c0cd0d6c.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/friendly-monsters/static/js/787.e4e9b7ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56338205.css",
+    "static/js/main.c0cd0d6c.js"
+  ]
+}
